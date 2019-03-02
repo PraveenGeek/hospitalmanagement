@@ -1,0 +1,37 @@
+body{
+	background-image: url("https://vertassets.blob.core.windows.net/image/686d4240/686d4240-cf88-4b3f-a163-a4bad730a6f4/pulse_line_background_2.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:absolute;
+	color:white;
+}
+ul{
+	margin-left:15%;
+	padding:0px;
+	list-style-type: none;
+}
+ul li{
+	border-radius: 4px;
+	float: left;
+	width:200px;
+	height:40px;
+	background-color: #000;
+	font-size: 20px;
+	line-height:40px;
+	text-align: center;
+	margin-right: 2px;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+	display:block;
+}
+ul li a:hover{
+	background-color: green;
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+}

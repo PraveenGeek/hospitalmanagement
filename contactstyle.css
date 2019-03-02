@@ -1,0 +1,67 @@
+body{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-image: url("contactdetails.jpg");
+}
+.contact{
+
+	width:500px;
+	height:650px;
+	background: transparent;
+	top:50%;
+	left:50%;
+	box-sizing: content-box;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	border:1px solid #fff;
+	border-radius:10px;
+	margin-top: 30px;
+}
+.contact h2{
+	font-size: 30px;
+	color:#fff;
+	text-align:center;
+	margin-left: 3px;
+}
+.contact h4{
+	font-size: 25px;
+	color:#fff;
+	margin-left: 3px;
+}
+.contact h3{
+	font-size: 20px;
+	color:#000;
+	margin-left: 3px;
+}
+ul{
+	margin-left: 15%;
+	padding:0px;
+	list-style-type: none;
+	margin-left:15%;
+}
+ul li{
+	border-radius: 4px;
+	float: left;
+	width:200px;
+	height:40px;
+	background-color: #000;
+	font-size: 20px;
+	line-height:40px;
+	text-align: center;
+	margin-right: 2px;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+	display:block;
+}
+ul li a:hover{
+	background-color: green;
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+}

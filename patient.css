@@ -1,0 +1,98 @@
+body{
+	background-image: url(parachute.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.patient{
+	box-sizing: border-box;
+	border:none;
+	transform: translate(-50%,-50%);
+	width:600px;
+	height:700px;
+	position:absolute;
+	border-radius: 5px;
+	top:50%;
+	left:50%;
+	margin-top: 200px;
+}
+.patient h1{
+	font-size: 30px;
+	text-align: center;
+	color:#fff;
+}
+.patient p{
+	font-size: 20px;
+	color:#fff;
+	margin-left: 2px;
+}
+.patient input{
+	width:98%;
+	background:transparent;
+	font-size: 15px;
+	height:40px;
+	border:none;
+	border-bottom: 1px solid #000;
+	outline: none;
+}
+.patient input[type="submit"]{
+	border:none;
+	border-radius:50px;
+	height:40px;
+	background:#1E90FF;
+	outline:none;
+	color:#fff;
+	width:100%;
+	font-size: 15px;
+}
+.patient input[type="reset"]{
+	border:none;
+	border-radius:50px;
+	height:40px;
+	background:#E74F16;
+	outline:none;
+	width:100%;
+	color:#fff;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.patient textarea{
+	width:98%;
+	font-size: 15px;
+	background:transparent;
+	border:none;
+	border-bottom: 1px solid #000;
+	outline: none;
+}
+
+ul{
+	margin-left:15%;
+	padding:0px;
+	list-style-type: none;
+}
+ul li{
+	border-radius: 4px;
+	float: left;
+	width:200px;
+	height:40px;
+	background-color: #000;
+	font-size: 20px;
+	line-height:40px;
+	text-align: center;
+	margin-right: 2px;
+}
+ul li a{
+	text-decoration: none;
+	color:white;
+	display:block;
+}
+ul li a:hover{
+	background-color: green;
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+}
